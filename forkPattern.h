@@ -9,6 +9,6 @@ void sleepFunction();
 
 void processingFork(int numOfThings, int patternNum, int id);
 
-void processFork1(int forkPattern, int id);
+void processFork1(int numOfThings, int id);
 
-void processFork2(int forkPattern, int id);
+void processFork2(int numOfThings, int forkPattern, int id);
