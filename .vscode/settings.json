@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "forkpattern1.h": "c",
+        "stdio.h": "c",
+        "forkpattern.h": "c"
+    }
+}
