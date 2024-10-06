@@ -3,6 +3,8 @@
 #include "forkPattern.h"
 
 int main(int argc, char* argv[]) {
+    srand(time(NULL));
+
     int numOfThings = atoi(argv[1]);
     int patternNum = atoi(argv[2]);
 
@@ -15,6 +17,7 @@ int main(int argc, char* argv[]) {
         printf ("Please choose pattern of 1 or 2.\n");
         return -1;
     }
+
 
     processingFork(numOfThings, patternNum, 0);
 

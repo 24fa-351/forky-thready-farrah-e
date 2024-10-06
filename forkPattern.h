@@ -5,10 +5,10 @@
 
 #define SUB_PROCESS_MAX 256
 
-void sleepFunction();
+void sleepFunction(int sleepDuration);
 
 void processingFork(int numOfThings, int patternNum, int id);
 
-void processFork1(int numOfThings, int id);
+void processFork1(int childIndex, int sleepDuration);
 
-void processFork2(int numOfThings, int forkPattern, int id);
+void processFork2(int childIndex, int sleepDuration, int numOfThings);
